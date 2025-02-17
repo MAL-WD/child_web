@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة التحكم</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <button class="toggle-btn" id="toggleBtn">
+            <img class="toggle" src="./assets/images/toggle.svg" alt="">
+        </button>
+        
+        <div class="sidebar-header">
+            <img src="./assets/images/logo.svg" class="logo"></img>
+        </div>
+        <div class="clock">
+            <div class="wrap">
+              <span class="hour"></span>
+              <span class="minute"></span>
+              <span class="second"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li>
+                    <a href="/">
+                        <img class="icon" src="./assets/images/home.svg" alt="">
+                        <span class="text">الصفحة الرئيسية</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/subjects">
+                        <img class="icon" src="./assets/images/subjects.svg" alt="">
+                        <span class="text">المواد</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/training">
+                        <img class="icon" src="./assets/images/training.svg" alt="">
+                        <span class="text">التدريب</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/settings">
+                        <img class="icon" src="./assets/images/settings.svg" alt="">
+                        <span class="text">الإعدادات</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/account">
+                        <img class="icon" src="./assets/images/account.svg" alt="">
+                        
+                        <span class="text">الحساب</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="user-profile">
+            <img src="./assets/images/profile.png" alt="صورة المستخدم" class="profile-image">
+            <div class="profile-info">
+                <h3 class="profile-name">رضى</h3>
+                <p class="profile-title">سنة خامسة ابتدائي</p>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <h1>مرحباً بك</h1>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
